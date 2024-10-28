@@ -10,7 +10,8 @@ import Like from '~/models/schemas/Like.schema'
 import Conversation from '~/models/schemas/Conversations.schema'
 import { envConfig } from '~/constants/config'
 
-const uri = `mongodb+srv://${envConfig.dbUsername}:${envConfig.dbPassword}@twitter.ospfr41.mongodb.net/?retryWrites=true&w=majority`
+const uri = `mongodb+srv://${envConfig.dbUsername}:${envConfig.dbPassword}@cluster0.dwxlp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+
 
 class DatabaseService {
   private client: MongoClient

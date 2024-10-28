@@ -5,10 +5,10 @@ components:
       properties:
         email:
           type: string
-          example: admin1@gmail.com
+          example: quocbaodev1102@gmail.com
         password:
           type: string
-          example: Duoc123!
+          example: Quocbao@dev4
     SuccessAuthentication:
       type: object
       properties:
@@ -81,13 +81,13 @@ components:
           example: John Doe
         email:
           type: string
-          example: duthanhduoc100@gmail.com
+          example: quocbaodev1102@gmail.com
         password:
           type: string
-          example: Duoc123!
+          example: Quocbao@dev4
         confirm_password:
           type: string
-          example: Duoc123!
+          example: Quocbao@dev4
         date_of_birth:
           type: string
           format: ISO8601
@@ -258,7 +258,7 @@ components:
               email:
                 type: string
                 description: Email của user được đề cập
-                example: duthanhduoc@gmail.com
+                example: quocbaodev1102@gmail.com
         medias:
           type: array
           items:
